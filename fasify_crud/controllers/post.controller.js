@@ -87,6 +87,6 @@ module.exports = {
 
 function hasPostValidation(post, reply) {
     if (!post) {
-        return reply.status(404).send();
+        reply.status(404).send();
     }
 }
